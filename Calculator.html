@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <style>
+            body {
+                background-color: aliceblue;
+            }
+            #calculator {
+                width: 270px;
+                height: auto;
+                background-color: white;
+                border-style: solid;
+                border-width: 3px;
+                border-color: #707070;
+                border-radius: 7px;
+            }
+
+            #display {
+                width: 270px;
+                height: 100px;
+                background-color: red;
+                overflow: hidden;
+                font-size: 50px;
+                text-align: right;
+                vertical-align: text-bottom;
+                border-bottom-style: solid;
+                border-bottom-width: 3px;
+                border-color: #707070;
+                padding-top: 25px;
+            }
+
+            #buttons {
+                display: flex;
+                justify-content: space-around;
+                width: 270px;
+                height: auto;
+            }
+
+            button {
+                height: 50px;
+                width: 50px;
+                border: none;
+                border-radius: 50%;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="calculator">
+            <div id="display">2420</div><br>
+            <div id="buttons">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>+</button>
+            </div><br>
+            <div id="buttons">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>-</button>
+            </div><br>
+
+            <div id="buttons">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>*</button>
+            </div><br>
+
+            <div id="buttons">
+                <button>0</button>
+                <button>.</button>
+                <button>/</button>
+                <button>=</button>
+            </div><br>
+        </div>
+        </div>
+    </body>
+
+</html>
